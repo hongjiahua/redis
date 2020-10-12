@@ -21,7 +21,7 @@ public class StudentController {
 
     }
 
-    @RequestMapping("/getuser")
+    @RequestMapping("/getuser")//获取用户
     @ResponseBody
     public Student getuser() {
         return studentService.findUserById("hjh");
